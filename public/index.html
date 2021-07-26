@@ -30,10 +30,19 @@
 <body>
   <h1>Express.js File Upload</h1>
   <form id="uploadForm" enctype="multipart/form-data" action="/upload" method="post">
-    <input type="file" name="myfile" /><br /><br />
+    <button onclick="test()">Click mes</button>
+    <input type="file" id="xyz" name="file" style="display: none;" /><br /><br />
+    <!-- <input type="file" name="myfile2" /><br /><br /> -->
+
     <input type="submit" value="Upload Image" name="submit"><br /><br />
     <span id="status"></span>
   </form>
+
+  <script>
+    function test() {
+      document.getElementById('xyz').click();
+    }
+  </script>
 </body>
 
 </html>

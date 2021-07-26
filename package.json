@@ -7,9 +7,10 @@
     "start": "nodemon"
   },
   "keywords": [],
-  "author": "ਮਨਪ੍ਰੀਤ ਸਿੰਘ || Manpreet Singh <rdhaliwal97@outlook.com> (https://github.com/rdhaliwal97)",
+  "author": "ਮਨਪ੍ਰੀਤ ਸਿੰਘ || Manpreet Singh <msdhaliwal@outlook.in> (https://github.com/msdhaliwal)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "4.13.3",
     "multer": "1.1.0"
   }
